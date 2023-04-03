@@ -1,3 +1,5 @@
 ## Add this to app
-- [] notification when enabled folder is greatar than 100 MB
+- [] notification when selected folders is greatar than 100 MB
 - [] System Tray
+- [] More Locale
+- [] Improve Dark and Light Themes
