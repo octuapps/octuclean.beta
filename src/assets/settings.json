@@ -1,0 +1,33 @@
+{
+    "clean_count": 1,
+    "clean_size": 0,
+    "last_clean": 1680154598.542536,
+    "paths": [],
+    "accounts": [
+        {
+            "name": "Github",
+            "url": "https://github.com/omamkaz",
+            "icon": "github.svg"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://www.twitter.com/@omamkaz",
+            "icon": "twitter.svg"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/omamkaz",
+            "icon": "facebook.svg"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://linkedin.com/in/omamkaz",
+            "icon": "linkedin.svg"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/omamkaz",
+            "icon": "youtube.svg"
+        }
+    ]
+}

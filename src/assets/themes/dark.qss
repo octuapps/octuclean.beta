@@ -1,0 +1,92 @@
+QWidget {
+    color: white;
+}
+
+#MainWindow,
+#centralwidget {
+    background-color: #181819;
+    color: white;
+}
+
+
+/* Main Page */
+#widget_2 {
+    border-radius: 12px;
+    background-color: navy;
+    border: 1px solid #101117cd;
+}
+
+#widget_2>QLabel {
+    color: white;
+}
+
+#theme_btn,
+#about_btn,
+#path_btn,
+#refresh_btn,
+#clean_btn {
+    background-color: dodgerblue;
+    border-radius: 6px;
+    border: none;
+}
+
+#theme_btn:hover,
+#about_btn:hover,
+#path_btn:hover,
+#refresh_btn:hover,
+#clean_btn:hover {
+    background-color: cornflowerblue;
+}
+
+#scrollArea,
+#scrollAreaWidgetContents {
+    border-radius: 8px;
+    background-color: #262626;
+}
+
+#progress_bar {
+    border: 1px solid rgba(33, 37, 43, 180);
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(33, 37, 43, 180);
+    color: white;
+    height: 8px;
+}
+
+#progress_bar::chunk {
+    background-color: #FFD700;
+    border-radius: 3px;
+}
+
+/* Folders Page */
+
+
+/* About Page */
+#account_btn {
+    background: transparent;
+    border: none;
+}
+
+/* Alert Widget */
+#load_title {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+#load_subtitle {
+    font-weight: bold;
+    color: white;
+}
+
+#load_progress_bar {
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#load_progress_bar::chunk {
+    background-color: #FFD700;
+    border-radius: 3px;
+}
