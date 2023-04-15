@@ -16,13 +16,17 @@ class DeletingFilesThread(QThread):
     def delete_files_in_folder(self, folder_path: str) -> None:
         for fp in os.listdir(folder_path):
             fp = os.path.join(folder_path, fp)
-            if os.path.islink(fp):
-                os.unlink(fp)
-            elif os.path.isdir(fp):
-                self.delete_files_in_folder(fp)
-                os.rmdir(fp)
-            else:
-                os.remove(fp)
+            # I think that is danger for some files
+            # if os.path.islink(fp):
+            #     os.unlink(fp)
+            try:
+                if os.path.isdir(fp):
+                    self.delete_files_in_folder(fp)
+                    os.rmdir(fp)
+                else:
+                    os.remove(fp)
+            except Exception:
+                ...
 
     def run(self) -> None:
         paths = self.parent._data.get("paths", [])
